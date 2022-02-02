@@ -4,6 +4,9 @@ Accessibility UX checklist to serve as a method for designers and developers to 
 <h2>UX Accessibility Checklist</h2>
 WCAG Verification – 116 Questions  |  Cumulative list
 
+<br>
+<br>
+
 
 <h3>1. Perceivable 	</h3>
 
@@ -78,6 +81,8 @@ Information and user interface components must be presentable to users in ways t
 - [ ] **Loading**
 - [ ] **Error**
 
+<br>
+
 <h3> 2. Operable 	</h3>
 
 ```
@@ -144,6 +149,8 @@ User interface components and navigation must be operable.
 - [ ] Have we enabled non-touch inputs even on devices where touch inputs are present? ( Level AAA )
 
 
+<br>
+
 
 <h3> Understandable </h3>
 
@@ -195,9 +202,12 @@ Information and the operation of the user interface must be understandable.
 - [ ] Have we created specific help text and options that allow the user to complete a task without losing track of where they are?
 - [ ] Do we allow users to change between devices when interacting with content on multiple devices during the same session?
 
+<br>
+
 
 
 <h3> Robust </h3>
+
 
 ```
 
