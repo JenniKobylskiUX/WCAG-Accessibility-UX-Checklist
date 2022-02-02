@@ -6,7 +6,12 @@ WCAG Verification – 116 Questions  |  Cumulative list
 
 
 <h3>1. Perceivable 	</h3>
+
+```
+
 Information and user interface components must be presentable to users in ways they can perceive.
+
+```
 
 
 
@@ -35,7 +40,7 @@ Information and user interface components must be presentable to users in ways t
 - [ ] Have we made the correct order of consuming our content obvious if the order of content is essential to understanding it? ( Level A )
 - [ ] Does the sequence of information as we reveal it make sense if we went through it in order? ( Level A )
 - [ ] Have we made sure to not use physical characteristics like color or location to explain how to accomplish a task? ( Level A )
-- [ ] Do we allow users to view our content in both landscape + portrait mode without distortion (unless one way or the other is essential)? ( Level AA )
+- [ ] Do we allow users to view our content in both landscape and portrait mode without distortion (unless one way or the other is essential)? ( Level AA )
 - [ ] Have we appropriately labeled our UI components so autofill can be used correctly? ( Level AA )
 - [ ] Have we labeled input fields to communicate what information users can enter and why?  ( Level AA )
 - [ ] Does our markup match what the UI element is so that support devices can apply the user’s customized preferences? ( Level AAA )
@@ -48,33 +53,38 @@ Information and user interface components must be presentable to users in ways t
 - [ ] Can users tell the difference between the foreground and background of content? ( Level A )
 - [ ] Have we made sure that color is not the only way that we convey information in our content? ( Level A )
 - [ ] Can users easily increase or decrease audio if it lasts for more than three seconds? ( Level A )
-- [ ] Can all normal text colors be differentiated from their background color at a 4.5:1 ratio? ( Level AA )
-- [ ] Can all large text colors be differentiated from their background color at a 3:1 ratio? ( Level AA )
-- [ ] Can all UI/graphic colors be differentiated from their background color at a 3:1 ratio (unless they are disabled or logos)? ( Level AA )
-- [ ] Do all page elements render legibly when zoomed in at 200%? ( Level AA )
+- [ ] Can all normal text colors be differentiated from their background color at a **4.5:1** ratio ? ( Level AA )
+- [ ] Can all large text colors be differentiated from their background color at a **3:1** ratio? ( Level AA )
+- [ ] Can all UI/graphic colors be differentiated from their background color at a **3:1** ratio (unless they are disabled or logos)? ( Level AA )
+- [ ] Do all page elements render legibly when zoomed in at **200%**? ( Level AA )
 - [ ] Have we made sure not to rely on images alone to share information (unless it is essential)? ( Level AA )
-- [ ] Can all normal text colors be differentiated from their background color at a 7:1 ratio? ( Level AAA )
-- [ ] Can all large text colors be differentiated from their background color at a 4.5:1 ratio? ( Level AAA )
-- [ ] Can all UI/graphic colors be differentiated from their background color at a 3:1 ratio (unless they are disabled or logos)? ( Level AA )
+- [ ] Can all normal text colors be differentiated from their background color at a **7:1** ratio? ( Level AAA )
+- [ ] Can all large text colors be differentiated from their background color at a **4.5:1** ratio? ( Level AAA )
+- [ ] Can all UI/graphic colors be differentiated from their background color at a **3:1** ratio (unless they are disabled or logos)? ( Level AA )
 - [ ] Can voices in audio be heard clearly and easily distinguished from background noise? ( Level AAA )
 - [ ] If we have included a block of text, have we given the user the ability to customize how they view it (color, alignment, line spacing, etc)? ( Level AAA )
 - [ ] Have we only used images of text (without alt text) for decoration, not sharing content?  ( Level AAA )
-- [ ] Have we made sure that a vertical scroll bar is not needed until we exceed 320px and a horizontal scroll bar is not needed until we exceed 256px? ( Level AA )
-- [ ] Can our content be viewed and understood without issues if the line height is 1.5 bigger than the font size? ( Level AA )
+- [ ] Have we made sure that a vertical scroll bar is not needed until we exceed **320px** and a horizontal scroll bar is not needed until we exceed **256px**? ( Level AA )
+- [ ] Can our content be viewed and understood without issues if the line height is **1.5** bigger than the font size? ( Level AA )
 - [ ] Can our content be viewed and understood without issues if the space between each line of text is at least double the font size? ( Level AA )
 - [ ] Can our content be viewed and understood without issues if the space between paragraphs is at least double the font size? ( Level AA )
-- [ ] Can our content be viewed and understood without issues if the space between letters is at least 0.12 times bigger than the font size? ( Level AA )
-- [ ] Can our content be viewed and understood without issues if the space between words is at least 0.16 times bigger than the font size? ( Level AA )
+- [ ] Can our content be viewed and understood without issues if the space between letters is at least **0.12** times bigger than the font size? ( Level AA )
+- [ ] Can our content be viewed and understood without issues if the space between words is at least **0.16** times bigger than the font size? ( Level AA )
 - [ ] Are our UI components named as follows and are these states obvious to assistive devices? 
-Active
-Inactive
-Focus
-Disabled
-Loading
-Error
+- [ ] **Default**
+- [ ] **Inactive**
+- [ ] **Focus**
+- [ ] **Disabled**
+- [ ] **Loading**
+- [ ] **Error**
 
 <h3> 2. Operable 	</h3>
+
+```
+
 User interface components and navigation must be operable.
+
+```
 
 
 <h4>2.1   Keyboard Only-  Make all functionality available from a keyboard.</h4>
@@ -90,7 +100,7 @@ User interface components and navigation must be operable.
 - [ ] Can users adjust timing (re: slideshows, automated-scrolling, etc) if needed? ( Level A )
 - [ ] Are we giving users the ability to pause and restart automated content? ( Level A )
 - [ ] Do we give the user the ability to turn off motion animations if they start automatically? ( Level A )
-- [ ] Do we give users the ability to turn off motion animations if they last for more than five seconds? ( Level A )
+- [ ] Do we give users the ability to turn off motion animations if they last for more than **5** seconds? ( Level A )
 - [ ] Do we give users the ability to stop or pause updates that begin automatically? ( Level A )
 - [ ] Do we give users the ability to signal that they need more time before a timeout? ( Level A )
 - [ ] Do we allow users to turn off timeouts unless they are necessary to security? ( Level A )
@@ -102,7 +112,7 @@ User interface components and navigation must be operable.
 
 <h4>2.3   Seizures and Physical Reactions-  Do not design content in a way that is known to cause seizures or physical reactions.</h4>
 
-- [ ] Have we made sure none of our content blinks or flashes more than 3 times per second? ( Level A / Level AAA )
+- [ ] Have we made sure none of our content blinks or flashes more than **3** times per second? ( Level A / Level AAA )
 - [ ] Have we given users the ability to turn off any animations that start as soon as they interact with them? ( Level AAA )
 
 
@@ -130,13 +140,18 @@ User interface components and navigation must be operable.
 - [ ] Have we prioritized the “release” click of the mouse for the user to take action? ( Level A )
 - [ ] Are all buttons and graphic labels named as what they are? (re: “checkbox”, “notification,” etc) ( Level A )
 - [ ] Have we given users the ability to adjust/turn off motion input sensing ? (re: shake to erase) ( Level A )
-- [ ] Are our click targets at least 44px x 44px in size? ( Level AAA )
+- [ ] Are our click targets at least **44px x 44px** in size? ( Level AAA )
 - [ ] Have we enabled non-touch inputs even on devices where touch inputs are present? ( Level AAA )
 
 
 
 <h3> Understandable </h3>
+
+```
+
 Information and the operation of the user interface must be understandable.
+
+```
 
 
 
@@ -183,7 +198,12 @@ Information and the operation of the user interface must be understandable.
 
 
 <h3> Robust </h3>
+
+```
+
 Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.
+
+```
 
 
 
