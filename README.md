@@ -1,8 +1,11 @@
-# WCAG-Accessibility-UX-Checklist 
+<p align="center">
+	# WCAG-Accessibility-UX-Checklist 
 
 ![alt text](world_open_source_day_social_2x.png)
 
 Accessibility UX checklist to serve as a method for designers and developers to assess the WCAG compliance of their work.
+	
+</p>
 
 ## UX Accessibility Checklist
 WCAG Verification – 116 Questions  |  Cumulative list
