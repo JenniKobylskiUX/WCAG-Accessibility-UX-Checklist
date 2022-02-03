@@ -8,6 +8,7 @@ WCAG Verification – 116 Questions  |  Cumulative list
 <br>
 <br>
 
+
 ### 1. Perceivable 	
 
 
@@ -16,7 +17,7 @@ _Information and user interface components must be presentable to users in ways 
 
 
 
-#### 1.1   Text alternatives-  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. </h4>
+####1.1   Text alternatives-  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. </h4>
 
 - [ ] Have we provided “alt text” alternatives for all images and data visualizations to a degree that information is not lost? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
 - [ ] Have we provided “alt text” alternatives for all graphics like icons? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
@@ -180,7 +181,7 @@ _Information and the operation of the user interface must be understandable._
 - [ ] Do we give the user the ability to turn off all notifications until the end of the session?  [Level AAA]()
 
 
-<h4>3.3   Input Assistance-  Help users avoid and correct mistakes.</h4>
+#### 3.3   Input Assistance-  Help users avoid and correct mistakes.</h4>
 	
 - [ ] Do we alert users immediately with an error message as soon as an error is detected? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
 - [ ] Have we provided more than one cue that an error has occurred? [Level A]()
