@@ -1,4 +1,6 @@
-# _WCAG-Accessibility-UX-Checklist 
+# WCAG-Accessibility-UX-Checklist 
+
+![alt text](world_open_source_day_social_2x.png)
 
 Accessibility UX checklist to serve as a method for designers and developers to assess the WCAG compliance of their work.
 
@@ -12,8 +14,6 @@ WCAG Verification – 116 Questions  |  Cumulative list
 
 
 _Information and user interface components must be presentable to users in ways they can perceive._
-
-
 
 
 #### 1.1   Text alternatives-  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. </h4>
