@@ -8,7 +8,6 @@ WCAG Verification – 116 Questions  |  Cumulative list
 <br>
 <br>
 
-
 ### 1. Perceivable 	
 
 
@@ -17,7 +16,7 @@ _Information and user interface components must be presentable to users in ways 
 
 
 
-####1.1   Text alternatives-  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. </h4>
+#### 1.1   Text alternatives-  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. </h4>
 
 - [ ] Have we provided “alt text” alternatives for all images and data visualizations to a degree that information is not lost? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
 - [ ] Have we provided “alt text” alternatives for all graphics like icons? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
