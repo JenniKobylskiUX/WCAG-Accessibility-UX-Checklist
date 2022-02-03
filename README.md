@@ -10,18 +10,16 @@ WCAG Verification – 116 Questions  |  Cumulative list
 
 <h3>1. Perceivable 	</h3>
 
-```
 
-Information and user interface components must be presentable to users in ways they can perceive.
+_Information and user interface components must be presentable to users in ways they can perceive._
 
-```
 
 
 
 <h4>    1.1   Text alternatives-  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. </h4>
 
-- [ ] Have we provided “alt text” alternatives for all images and data visualizations to a degree that information is not lost in non-visual representations of the page? ( Level A )
-- [ ] Have we provided “alt text” alternatives for all graphics like icons to a degree that information is not lost in non-visual representations of the page? ( Level A )
+- [ ] Have we provided “alt text” alternatives for all images and data visualizations to a degree that information is not lost? ( Level A )
+- [ ] Have we provided “alt text” alternatives for all graphics like icons? ( Level A )
 
 
 <h4>1.2   Time-based Media-  Provide alternatives for time-based media [such as video, sound, slideshows, etc.] </h4>
@@ -85,11 +83,9 @@ Information and user interface components must be presentable to users in ways t
 
 <h3> 2. Operable 	</h3>
 
-```
 
-User interface components and navigation must be operable.
+_User interface components and navigation must be operable._
 
-```
 
 
 <h4>2.1   Keyboard Only-  Make all functionality available from a keyboard.</h4>
@@ -154,11 +150,9 @@ User interface components and navigation must be operable.
 
 <h3> Understandable </h3>
 
-```
 
-Information and the operation of the user interface must be understandable.
+_Information and the operation of the user interface must be understandable._
 
-```
 
 
 
@@ -209,11 +203,9 @@ Information and the operation of the user interface must be understandable.
 <h3> Robust </h3>
 
 
-```
 
-Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.
+_Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies._
 
-```
 
 
 
