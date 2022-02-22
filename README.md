@@ -1,9 +1,13 @@
-# _WCAG-Accessibility-UX-Checklist 
+# WCAG Accessibility UX Checklist 
+
+![alt text](world_open_source_day_social_2x.png)
 
 Accessibility UX checklist to serve as a method for designers and developers to assess the WCAG compliance of their work.
+	
+
 
 ## UX Accessibility Checklist
-WCAG Verification – 116 Questions  |  Cumulative list
+WCAG 2.1 Verification – 116 Questions  |  Cumulative list
 
 <br>
 <br>
@@ -15,9 +19,8 @@ WCAG Verification – 116 Questions  |  Cumulative list
 _Information and user interface components must be presentable to users in ways they can perceive._
 
 
+#### 1.1   Text alternatives-  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.
 
-
-####1.1   Text alternatives-  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. </h4>
 
 - [ ] Have we provided “alt text” alternatives for all images and data visualizations to a degree that information is not lost? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
 - [ ] Have we provided “alt text” alternatives for all graphics like icons? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
@@ -26,10 +29,10 @@ _Information and user interface components must be presentable to users in ways 
 #### 1.2   Time-based Media-  Provide alternatives for time-based media [such as video, sound, slideshows, etc.] 
 
 - [ ] Have we provided a transcript of prerecorded audio and video recordings? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded)
-- [ ] Have we provided captions and descriptions for prerecorded audio and videos? [Level A]
+- [ ] Have we provided captions and descriptions for prerecorded audio and videos? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded)
 - [ ] Are live captions available for live audio and video recordings? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#captions-live)
-- [ ] Have we provided audio recordings which describe in real-time the contents of all video recordings? [Level AA]()
-- [ ] Do we have a video recording of an ASL interpreter translating our pre recorded media? [Level AAA]()
+- [ ] Have we provided audio description which describes in real-time the contents of all video recordings? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded)
+- [ ] Do we have a video recording of an ASL interpreter translating our pre recorded media? [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#sign-language-prerecorded)
 - [ ] Have we provided an audio description of the prerecorded media that also includes implicit context that may not be understood through a language translation alone? [Level AAA]()
 - [ ] Have we provided a transcript or equivalent version of live video content? [Level AAA]()
 
@@ -37,15 +40,15 @@ _Information and user interface components must be presentable to users in ways 
 #### 1.3   Adaptable-  Create content that can be presented in different ways without losing the integrity and 
 	context of the content.
 	
-- [ ] Can we provide a simpler layout without losing information or structure? [Level A]()
-- [ ] Have we included a text description of our content that conveys implicit tone and meaning, even if it is not explicitly stated within that content? ( Level A )
-- [ ] Have we made the correct order of consuming our content obvious if the order of content is essential to understanding it? [Level A]()
-- [ ] Does the sequence of information as we reveal it make sense if we went through it in order? [Level A]()
-- [ ] Have we made sure to not use physical characteristics like color or location to explain how to accomplish a task? [Level A]()
-- [ ] Do we allow users to view our content in both landscape and portrait mode without distortion (unless one way or the other is essential)? ( Level AA )
-- [ ] Have we appropriately labeled our UI components so autofill can be used correctly? [Level AA]()
-- [ ] Have we labeled input fields to communicate what information users can enter and why?  [Level AA]()
-- [ ] Does our markup match what the UI element is so that support devices can apply the user’s customized preferences? [Level AAA]()
+- [ ] Can we provide a simpler layout without losing information or structure? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111%2C128%2C133#adaptable)
+- [ ] Have we included a text description of our content that conveys implicit tone and meaning, even if it is not explicitly stated within that content? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships)
+- [ ] Have we made the correct order of consuming our content obvious if the order of content is essential to understanding it? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence)
+- [ ] Does the sequence of information as we reveal it make sense if we went through it in order? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence)
+- [ ] Have we made sure to not use physical characteristics like color or location to explain how to accomplish a task? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics)
+- [ ] Do we allow users to view our content in both landscape and portrait mode without distortion (unless one way or the other is essential)? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#orientation)
+- [ ] Have we appropriately labeled our UI components so autofill can be used correctly? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose)
+- [ ] Have we labeled input fields to communicate what information users can enter and why?  [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose)
+- [ ] Does our markup match what the UI element is so that support devices can apply the user’s customized preferences? [Level AAA](https://www.w3.org/WAI/WCAG21/Understanding/identify-purpose.html)
 
 
 #### 1.4   Distinguishable-  Make it easier for users to see and hear content including separating 
