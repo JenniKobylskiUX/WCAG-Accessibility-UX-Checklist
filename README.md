@@ -63,7 +63,7 @@ _Information and user interface components must be presentable to users in ways 
 - [ ] Can all large text colors be differentiated from their background color at a **4.5:1** ratio? [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced)
 - [ ] Can all UI/graphic colors be differentiated from their background color at a **3:1** ratio (unless they are disabled or logos)? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast)
 - [ ] Can voices in audio be heard clearly and easily distinguished from background noise? [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#low-or-no-background-audio)
-- [ ] If we have included a block of text, have we given the user the ability to customize how they view it (color, alignment, line spacing, etc.)? [Level AAA] (https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation)
+- [ ] If we have included a block of text, have we given the user the ability to customize how they view it (color, alignment, line spacing, etc.)? [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation)
 - [ ] Have we only used images of text (without alt text) for decoration, not sharing content?  [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#images-of-text-no-exception)
 - [ ] Have we made sure that a vertical scroll bar is not needed until we exceed **320px** and a horizontal scroll bar is not needed until we exceed **256px**? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#reflow)
 - [ ] Can our content be viewed and understood without issues if the line height is **1.5** bigger than the font size? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#text-spacing)
@@ -184,7 +184,7 @@ _Information and the operation of the user interface must be understandable._
 #### 3.3   Input Assistance-  Help users avoid and correct mistakes.</h4>
 	
 - [ ] Do we alert users immediately with an error message as soon as an error is detected? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#error-identification)
-- [ ] Have we provided more than one cue that an error has occurred? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#error-identification
+- [ ] Have we provided more than one cue that an error has occurred? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#error-identification)
 - [ ] Are all required form fields clearly indicated to the user? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#error-identification)
 - [ ] Are input fields always paired with directions that help the user decide what to enter?  [Level A](https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions)
 - [ ] Do our alerts always include text even if colors and/or graphics are also used in the notification? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions)
