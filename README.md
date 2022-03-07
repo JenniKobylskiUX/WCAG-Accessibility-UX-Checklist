@@ -20,7 +20,7 @@ WCAG 2.1 Verification – 116 Questions  |  Cumulative list
 
 **Level AAA** = complies with this specific Level AAA WCAG 2.1 guideline
 
-**Recommendation** = additional UX consideration inspired by various WCAG 2.2 guidelines
+**Recommendation** = additional UX consideration inspired by various WCAG 2.1 guidelines
 
 
 <br>
