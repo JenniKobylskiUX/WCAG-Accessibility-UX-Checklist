@@ -11,6 +11,20 @@ WCAG 2.1 Verification – 116 Questions  |  Cumulative list
 
 <br>
 
+### Links Defined
+*Description of each type of citation paired with checklist questions*
+
+**Level A** = complies with this specific Level A WCAG 2.1 guideline
+
+**Level AA** = complies with this specific Level AA WCAG 2.1 guideline
+
+**Level AAA** = complies with this specific Level AAA WCAG 2.1 guideline
+
+**Recommendation** = additional UX consideration inspired by various WCAG 2.2 guidelines
+
+
+<br>
+
 
 ### 1. Perceivable 	
 
@@ -31,8 +45,8 @@ _Information and user interface components must be presentable to users in ways 
 - [ ] Are live captions available for live audio and video recordings? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#captions-live)
 - [ ] Have we provided audio recordings that describe the contents of all video recordings in real-time? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded)
 - [ ] Do we have a video recording of an ASL interpreter translating our prerecorded media? [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#sign-language-prerecorded)
-- [ ] Have we provided an audio description of the prerecorded media that also includes implicit context that may not be understood through a language translation alone? [Level AAA]()
-- [ ] Have we provided a transcript or equivalent version of live video content? [Level AAA]()
+- [ ] Have we provided an audio description of the prerecorded media that also includes implicit context that may not be understood through a language translation alone? [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#extended-audio-description-prerecorded)
+- [ ] Have we provided a transcript or equivalent version of live video content? [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#media-alternative-prerecorded)
 
 
 #### 1.3   Adaptable -  Create content that can be presented in different ways without losing the integrity and context of the content.
@@ -188,13 +202,13 @@ _Information and the operation of the user interface must be understandable._
 - [ ] Are all required form fields clearly indicated to the user? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#error-identification)
 - [ ] Are input fields always paired with directions that help the user decide what to enter?  [Level A](https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions)
 - [ ] Do our alerts always include text even if colors and/or graphics are also used in the notification? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions)
-- [ ] Are our error messages as short and specific as possible? 
+- [ ] Are our error messages as short and specific as possible? (Recommendation)
 - [ ] If an error is detected, have we offered a concise solution to fix the error? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion)
 - [ ] Have we allowed users to review and correct their submissions before submitting them (especially with legal commitments and financial transactions)? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data)
 - [ ] Do we give the user the ability to immediately undo a mistake in any situation? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data)
 - [ ] Do we have a readily available system in place whenever a user needs help? [Level AAA](https://www.w3.org/WAI/WCAG21/quickref/#help)
-- [ ] Have we created specific help text and options that allow the user to complete a task without losing track of where they are? 
-- [ ] Do we allow users to change between devices when interacting with content on multiple devices during the same session? 
+- [ ] Have we created specific help text and options that allow the user to complete a task without losing track of where they are? (Recommendation)
+- [ ] Do we allow users to change between devices when interacting with content on multiple devices during the same session? (Recommendation)
 
 
 <br>
@@ -214,7 +228,7 @@ _Content must be robust enough that it can be interpreted by a wide variety of u
 
 - [ ] Does all content that uses a markup language have complete start and end tags? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#parsing)
 - [ ] Does all of our markup include only one attribution (no duplicates)? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#parsing)
-- [ ] Are all HTML elements correctly nested according to standard use? 
+- [ ] Are all HTML elements correctly nested according to standard use? (Recommendation)
 - [ ] Can the name and role of all UI elements be easily detected by supportive technology? [Level A](https://www.w3.org/WAI/WCAG21/quickref/#name-role-value)
 - [ ] Can all of our status messages be automatically received and interpreted by supportive technology (even if they are not the user’s current focus)? [Level AA](https://www.w3.org/WAI/WCAG21/quickref/#status-messages)
 
