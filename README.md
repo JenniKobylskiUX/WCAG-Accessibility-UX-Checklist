@@ -34,8 +34,8 @@ _Information and user interface components must be presentable to users in ways 
 
 #### 1.1   Text alternatives -  Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. 
 
-- [ ] Have we provided “alt text” alternatives for all images and data visualizations to a degree that information is not lost? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
-- [ ] Have we provided “alt text” alternatives for all graphics, like icons? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
+- [ ] Have we provided descriptive alt text to all functional and informative images, as well as data visualizations, so that all users can understand the content? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
+- [ ] Have we provided descriptive alt text that accurately conveys their meaning to all functional and informative graphics, such as icons? [Level A](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=111#non-text-content)
 
 
 #### 1.2   Time-based Media -  Provide alternatives for time-based media [such as video, sound, slideshows, etc.] 
